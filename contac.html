@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	 div{
+
+  box-shadow: 10px 10px 10px 10px;
+
+
+	 }
+	 #firstname{
+	 	padding: 10px;
+	 	font-size: 20px;
+	 	margin: 10px;
+	 }
+	  #lastname{
+
+ 	padding: 10px;
+ 	font-size: 20px;
+ }
+ #EmailID{
+ 	padding: 10px;
+ 		font-size: 20px;
+ 		margin: 10px;
+ }
+ #Contact-Number{
+ 	padding: 10px;
+ 		font-size: 20px;
+ 		margin: 10px;
+ }
+ #por{
+ 	padding: 10px;
+ 		font-size: 20px;
+      }
+      select {
+  width: 20%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  margin: 40px;
+  font-size: 20px;
+     }
+     h2{
+     	font-size: 30px;
+     	font-weight: bold;
+     }
+     p{
+     	font-size: 20px;
+     	font-weight: bold;
+     	font-family: verdana;
+     }
+     #Remark{
+     	padding: 10px;
+     	font-size: 20px;
+     }
+     #submit{
+     	font-size: 20px;
+     	font-weight: bold;
+     	color: purple;
+     	border-color: purple;
+     	padding: 10px;
+     }
+
+	</style>
+</head>
+<body>
+	<div>
+<h2>Address</h2></li>
+<p>kamla nagar,a-7,Opp. canara bank,agra</p>
+<h2>Contact-Number</h2>
+<p>7658903627</p>
+</div>
+<br>
+<br>
+<form method="post">
+	<input type="first name" name="first name" id="firstname" placeholder="first name" >
+	<input type="last name" name="last name" id="lastname" placeholder="last name">
+	<br>
+	<br>
+	<input type="Contact-Number" name="Contact-Number" id="Contact-Number" placeholder="Contact-Number">
+	<input type="email" name="Email ID" id="EmailID" placeholder="Email ID">
+	<br>
+	<br>
+	<textarea style="height: 100px;width: 300px" placeholder="Place of Residence" id="por"></textarea>
+	<br>
+	<br>
+	<select id="course" name="course">
+		<option value="selectc" style="font-size: 20px">Select Course</option>
+  <option value="ssc">S.S.C</option>
+  <option value="fyjc">FYJC</option>
+  <option value="syjc">SYJC</option>
+  <option value="bcom">B.com</option>
+  <option value="Humanities">Humanities</option>
+  </select>
+  <select id="board" name="board">
+  	<option value="selectb" style="font-size: 20px">select board</option>
+  	<option value="icse">I.C.S.E</option>
+  	<option value="cbse">CBSE</option>
+  	<option value="upb">U.P board</option>
+  </select>
+  <select>
+  	<option value="selectm">select medium</option>
+  	<option value="englishm">English Medium</option>
+  	<option value="hindim">Hindi Medium</option>
+  </select>
+  <br>
+  <br>
+  <textarea style="height: 30%; width: 300px" placeholder="Remark" id="Remark"></textarea>
+  <br>
+  <br>
+  <input type="submit" name="submit" id="submit">
+</form>
+</body>
+</html>
